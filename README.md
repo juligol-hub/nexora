@@ -1,5 +1,7 @@
 # NEXORA
 
+[Live demo](https://nexora-mu-five-95.vercel.app)
+
 A responsive SaaS landing page with an interactive business intelligence dashboard. Built with Next.js 16, React, JavaScript, and Tailwind CSS v4.
 
 **Portfolio concept:** NEXORA is a fictional business. All figures are sample data; this project has no accounts, billing, backend analytics service, or live customer records.
@@ -60,4 +62,4 @@ Reviewed on October 20, 2026: production build and lint pass; the production dep
 
 ## Deploy
 
-Import this repository into Vercel as a **new NEXORA project**, select the Next.js preset, and use the repository root. Keep it separate from FirstWin. Vercel can use `npm run build` with no custom environment variables.
+This repository is connected to the separate NEXORA Vercel project. Pushing to `main` deploys the production site; other branches can receive preview deployments. The framework preset is Next.js and the root directory is the repository root. No application environment variables are required.
